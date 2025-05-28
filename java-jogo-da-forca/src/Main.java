@@ -145,7 +145,6 @@ public class Main {
                         } catch (Exception e) {
                             // laço para verificar se a palavra digitada está correta
                             for (int i = 0, j = 0; j < verEntrada.length; i++, j++) {
-    
                                 // tratamento para não dar erro
                                 try {
                                     // verifica se algo foi digitado
@@ -212,6 +211,8 @@ public class Main {
                         // verifica se a letra digitada é um caractere especial
                         // true se for, false se não for
                         boolean caractereEspecial = containsChar(caracteresEspeciais, verEntrada[0]);
+                        // transforma a entrada em minúscula evitando erros com capslock
+                        entrada = entrada.toLowerCase();
 
                         try{
                             // verifica se é um número
