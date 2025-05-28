@@ -23,7 +23,7 @@ minimamente espertos...
 
 Atualmente, nas linhas 141 e 217, temos um tratamento de erros que
 impede a utilização de números nas palavras a serem descobertas. Para
-poder usar, basta remover os dois try/catch que já deve ser o suficiente.
+poder usar, remover os dois try/catch já deve ser o suficiente.
 
 ===============================================================
 =======================Lista de palavras=======================
